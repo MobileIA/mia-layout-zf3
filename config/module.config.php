@@ -9,18 +9,16 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 
 return array(
     'view_helpers' => [
-        /*'aliases' => [
-            'layoutLte' => View\Helper\LayoutLte::class,
-            'lteForm' => View\Helper\LteForm::class,
+        'aliases' => [
+            'miaLayout' => View\Helper\Layout::class,
         ],
         'factories' => [
-            View\Helper\LayoutLte::class => View\Helper\LayoutLteFactory::class,
-            View\Helper\LteForm::class => InvokableFactory::class,
-        ],*/
+            View\Helper\Layout::class => View\Helper\LayoutFactory::class,
+        ],
     ],
-    /*'mia_layout_elite' => [
+    'mia_layout' => [
         'title' => 'AdminElite',
         'title_part_one' => 'Admin',
         'title_part_two' => 'LTE',
-    ]*/
+    ]
 );
