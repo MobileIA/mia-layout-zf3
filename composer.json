@@ -1,7 +1,7 @@
 {
     "name": "mobileia/mia-layout-zf3",
     "description": "The library for Zend Framework 3",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
@@ -29,7 +29,7 @@
             "MIALayout\\": "src/"
         },
         "classmap": [
-            "./Module.php"
+            "./src/Module.php"
         ]
     }
 }
